@@ -1,0 +1,25 @@
+# Python bytecode & notebooks
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Testing & linting caches
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated HDL build outputs, waveforms & simulation artifacts
+build/
+*.vvp
+*.vcd
+*.fst
+results.xml
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/

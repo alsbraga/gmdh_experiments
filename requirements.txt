@@ -1,0 +1,10 @@
+# Install gmdhtorch directly from GitHub until published on PyPI
+# (For local editable development inside gmdh_workspace, use: pip install -e ../gmdhtorch)
+gmdhtorch @ git+https://github.com/alsbraga/gmdhtorch.git
+gymnasium>=1.0
+matplotlib>=3.7
+numpy>=1.24
+scikit-learn>=1.2
+scipy>=1.10
+torch>=2.0
+cocotb>=2.0
